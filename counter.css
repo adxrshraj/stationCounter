@@ -15,10 +15,10 @@ body {
 
 .container {
     position: relative;
-    background-color: rgba(255, 248, 238,0.4);
+    background-color: rgba(255, 248, 238,0.7);
     width: 100%;
     max-width: 560px;
-    margin: 200px auto 10px;
+    margin: 100px auto 10px;
     padding: 20px;
     border-radius: 16px;
     
@@ -32,7 +32,52 @@ body {
     left:0;
     bottom:0;
     right:0;
-    background-color:  rgba(255, 248, 238,0.4);
+    background-color:  rgba(255, 248, 238,0.7);
     filter: blur(8px);
     z-index: -1;
+}
+
+.button {
+    background-color: #32CD32;  /* A nicer shade of green */
+    color: #fff;  /* White text */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #2db82d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.reset {
+    background-color:cadetblue;
+    color :#fff;
+    border : none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.reset:hover {
+    background-color:aqua;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.reset:active{
+    transform:translateY(0);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+
 }
