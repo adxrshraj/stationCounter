@@ -8,7 +8,7 @@
 body {
     background-image: url('station.webp');
     background-size: cover;
-    background-repeat: no-repeat;  
+    background-repeat:no-repeat;  
     position: relative;
     min-height: 100vh;
 }
@@ -37,7 +37,7 @@ body {
     z-index: -1;
 }
 
-.button {
+#button {
     background-color: #32CD32;  /* A nicer shade of green */
     color: #fff;  /* White text */
     border: none;
@@ -50,13 +50,13 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.button:hover {
+#button:hover {
     background-color: #2db82d;
     transform: translateY(2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.button:active {
+#button:active {
     transform: translateY(0);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
